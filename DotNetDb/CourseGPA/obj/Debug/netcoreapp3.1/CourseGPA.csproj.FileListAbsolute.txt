@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\bin\Debug\netcoreapp3.1\CourseGPA.exe
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\bin\Debug\netcoreapp3.1\CourseGPA.deps.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\bin\Debug\netcoreapp3.1\CourseGPA.runtimeconfig.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\bin\Debug\netcoreapp3.1\CourseGPA.runtimeconfig.dev.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\bin\Debug\netcoreapp3.1\CourseGPA.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\bin\Debug\netcoreapp3.1\CourseGPA.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.AssemblyInfo.cs
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseGPA\obj\Debug\netcoreapp3.1\CourseGPA.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\bin\Debug\netcoreapp3.1\JoshuaBelow.exe
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\bin\Debug\netcoreapp3.1\JoshuaBelow.deps.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\bin\Debug\netcoreapp3.1\JoshuaBelow.runtimeconfig.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\bin\Debug\netcoreapp3.1\JoshuaBelow.runtimeconfig.dev.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\bin\Debug\netcoreapp3.1\JoshuaBelow.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\bin\Debug\netcoreapp3.1\JoshuaBelow.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.AssemblyInfo.cs
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\JoshuaBelow\obj\Debug\netcoreapp3.1\JoshuaBelow.genruntimeconfig.cache

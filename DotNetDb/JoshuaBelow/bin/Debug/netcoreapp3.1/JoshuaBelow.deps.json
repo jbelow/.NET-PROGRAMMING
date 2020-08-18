@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "JoshuaBelow/1.0.0": {
+        "runtime": {
+          "JoshuaBelow.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JoshuaBelow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

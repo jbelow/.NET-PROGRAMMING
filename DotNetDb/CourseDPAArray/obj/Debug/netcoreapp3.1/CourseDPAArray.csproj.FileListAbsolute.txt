@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\bin\Debug\netcoreapp3.1\CourseDPAArray.exe
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\bin\Debug\netcoreapp3.1\CourseDPAArray.deps.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\bin\Debug\netcoreapp3.1\CourseDPAArray.runtimeconfig.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\bin\Debug\netcoreapp3.1\CourseDPAArray.runtimeconfig.dev.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\bin\Debug\netcoreapp3.1\CourseDPAArray.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\bin\Debug\netcoreapp3.1\CourseDPAArray.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.AssemblyInfo.cs
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\CourseDPAArray\obj\Debug\netcoreapp3.1\CourseDPAArray.genruntimeconfig.cache
