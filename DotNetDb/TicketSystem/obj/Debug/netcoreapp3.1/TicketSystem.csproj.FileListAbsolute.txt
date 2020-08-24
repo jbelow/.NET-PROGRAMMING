@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\bin\Debug\netcoreapp3.1\TicketSystem.exe
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\bin\Debug\netcoreapp3.1\TicketSystem.deps.json
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\bin\Debug\netcoreapp3.1\TicketSystem.runtimeconfig.json
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\bin\Debug\netcoreapp3.1\TicketSystem.runtimeconfig.dev.json
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\bin\Debug\netcoreapp3.1\TicketSystem.dll
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\bin\Debug\netcoreapp3.1\TicketSystem.pdb
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.AssemblyInfo.cs
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.dll
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.pdb
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\TicketSystem\obj\Debug\netcoreapp3.1\TicketSystem.genruntimeconfig.cache
