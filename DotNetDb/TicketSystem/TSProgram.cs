@@ -11,10 +11,10 @@ namespace TicketSystem
             string choice = "";
             
             do {
-
+                
             if(File.Exists (file)){
             Console.WriteLine("1) Read data from file.");
-            Console.WriteLine("2) Create file from data.");
+            Console.WriteLine("2) Create new ticket from data.");
             Console.WriteLine("Enter any other key to exit.");
             choice = Console.ReadLine();
 
@@ -25,25 +25,17 @@ namespace TicketSystem
                 while(!sr.EndOfStream){
                     string line = sr.ReadLine();
                     Console.WriteLine(line);
-                    // // convert string to array
-                    // string[] arr = line.Split(',');
-                    // Console.WriteLine(arr[0], arr[1], arr[2], arr[3]);
+
                 }
+                sr.Close();
             }
 
             else if (choice == "2") {
                     string newTicket = "";
+                    int assigned;
 
-                    StreamWriter sw = new StreamWriter(file);
-                    for (int i = 0; i < 7; i++) {
-                        
+                    StreamWriter sw = new StreamWriter(file,true);
 
-                        // ask a question
-                        Console.WriteLine("Enter new ticket (Y/N)?");
-                        // input the response
-                        string response = Console.ReadLine().ToUpper();
-                        // if the response is anything other than "Y", stop asking
-                        if (response != "Y") { break; }
 
                         Console.WriteLine("Enter the ticketID.");
                         string userInput = Console.ReadLine();
@@ -65,31 +57,27 @@ namespace TicketSystem
                         userInput = Console.ReadLine();
                         newTicket += ", " + userInput; 
 
-                        Console.WriteLine("Enter the assigned person.");
+                        Console.WriteLine("How many people are going to be assigned?");
                         userInput = Console.ReadLine();
-                        newTicket += ", " + userInput; 
+                        assigned = Convert.ToInt32(userInput);
+
+                            for(int j = 0; j < assigned; j++){
+                                Console.WriteLine("Enter the assigned person.");
+                                userInput = Console.ReadLine();
+                                newTicket += "| " + userInput; 
+                            }
 
                         Console.WriteLine(newTicket);
-
-
                         
-                        // sw.WriteLine("{0}|{1}", name, grade);
-                    }
+                        sw.WriteLine(newTicket);
+                        
                     sw.Close();
             }
-
             } else { //if else check for file
                 Console.WriteLine("Error: File does not exists");
             }       
 
             } while (choice == "1" || choice == "2");
-
-
-        
-
-           
-
-
 
         }
     }
