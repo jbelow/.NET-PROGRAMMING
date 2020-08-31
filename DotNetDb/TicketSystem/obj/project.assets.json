@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\CourseGPAFile\\CourseGPAFile.csproj",
-      "projectName": "CourseGPAFile",
-      "projectPath": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\CourseGPAFile\\CourseGPAFile.csproj",
+      "projectUniqueName": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\TicketSystem\\TicketSystem.csproj",
+      "projectName": "TicketSystem",
+      "projectPath": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\TicketSystem\\TicketSystem.csproj",
       "packagesPath": "C:\\Users\\joshb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\CourseGPAFile\\obj\\",
+      "outputPath": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\TicketSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joshb\\AppData\\Roaming\\NuGet\\NuGet.Config"
