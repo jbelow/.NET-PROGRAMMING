@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\bin\Debug\netcoreapp3.1\DateFormatting.exe
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\bin\Debug\netcoreapp3.1\DateFormatting.deps.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\bin\Debug\netcoreapp3.1\DateFormatting.runtimeconfig.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\bin\Debug\netcoreapp3.1\DateFormatting.runtimeconfig.dev.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\bin\Debug\netcoreapp3.1\DateFormatting.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\bin\Debug\netcoreapp3.1\DateFormatting.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.AssemblyInfo.cs
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\DateFormatting\obj\Debug\netcoreapp3.1\DateFormatting.genruntimeconfig.cache

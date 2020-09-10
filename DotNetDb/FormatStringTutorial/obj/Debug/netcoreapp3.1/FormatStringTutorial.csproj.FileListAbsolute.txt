@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\bin\Debug\netcoreapp3.1\FormatStringTutorial.exe
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\bin\Debug\netcoreapp3.1\FormatStringTutorial.deps.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\bin\Debug\netcoreapp3.1\FormatStringTutorial.runtimeconfig.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\bin\Debug\netcoreapp3.1\FormatStringTutorial.runtimeconfig.dev.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\bin\Debug\netcoreapp3.1\FormatStringTutorial.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\bin\Debug\netcoreapp3.1\FormatStringTutorial.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.AssemblyInfo.cs
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\FormatStringTutorial\obj\Debug\netcoreapp3.1\FormatStringTutorial.genruntimeconfig.cache
