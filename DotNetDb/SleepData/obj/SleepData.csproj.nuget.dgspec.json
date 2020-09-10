@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj": {}
+    "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj": {
+    "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj",
+        "projectUniqueName": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj",
         "projectName": "SleepData",
-        "projectPath": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj",
+        "projectPath": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\SleepData\\SleepData.csproj",
         "packagesPath": "C:\\Users\\joshb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\SleepData\\obj\\",
+        "outputPath": "C:\\Users\\joshb\\Documents\\WCTC\\Fall-2020\\.NET-PROGRAMMING\\DotNetDb\\SleepData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joshb\\AppData\\Roaming\\NuGet\\NuGet.Config"

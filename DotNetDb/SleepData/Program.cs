@@ -13,6 +13,7 @@ namespace SleepData
             Console.WriteLine("Enter anything else to quit.");
             // input response
             string resp = Console.ReadLine();
+            string fileName = "data.txt";
 
             if (resp == "1")
             {
@@ -36,14 +37,14 @@ namespace SleepData
                 // create file
                 StreamWriter sw = new StreamWriter("data.txt");
                 // loop for the desired # of weeks
-                while (dataDate < dataEndDate)
-                {
+                while (dataDate < dataEndDate) {
                     // 7 days in a week
                     int[] hours = new int[7];
                     for (int i = 0; i < hours.Length; i++)
                     {
                         // generate random number of hours slept between 4-12 (inclusive)
                         hours[i] = rnd.Next(4, 13);
+
                     }
                     // M/d/yyyy,#|#|#|#|#|#|#
                     //Console.WriteLine($"{dataDate:M/d/yy},{string.Join("|", hours)}");
@@ -56,6 +57,39 @@ namespace SleepData
             else if (resp == "2")
             {
                 // TODO: parse data file
+
+                StreamReader sr = new StreamReader(fileName);
+
+                string line;
+
+                while ((line = sr.ReadLine()) != null)
+                {
+                
+                string[] splitFileName;
+                string[] listOfNumbers;
+                double totalHoursForAWeek = 0;
+                double averageHoursForAWeek = 0;
+
+                    //break the output into two parts 
+                    splitFileName = line.Split(',');
+
+                    //checking the list of hours
+                    Console.WriteLine(splitFileName[1]);
+
+                    listOfNumbers = splitFileName[1].Split('|');
+                    for (int i = 0; i < 7; i++) {
+                         
+                        totalHoursForAWeek += double.Parse(listOfNumbers[i]);
+
+                        Console.WriteLine(totalHoursForAWeek);
+
+                    }
+                    
+
+                    Console.WriteLine();
+
+                    Console.WriteLine(line);
+                }
 
             }
         }
