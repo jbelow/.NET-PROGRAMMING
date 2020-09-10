@@ -25,7 +25,6 @@ namespace TicketSystem
                 while(!sr.EndOfStream){
                     string line = sr.ReadLine();
                     Console.WriteLine(line);
-
                 }
                 sr.Close();
             }
@@ -36,8 +35,7 @@ namespace TicketSystem
 
                     StreamWriter sw = new StreamWriter(file,true);
 
-
-                        Console.WriteLine("Enter the ticketID.");
+                         Console.WriteLine("Enter the ticketID.");
                         string userInput = Console.ReadLine();
                         newTicket += userInput; 
                         
