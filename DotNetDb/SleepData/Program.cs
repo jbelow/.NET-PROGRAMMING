@@ -64,31 +64,36 @@ namespace SleepData
 
                 while ((line = sr.ReadLine()) != null)
                 {
-                
-                string[] splitFileName;
-                string[] listOfNumbers;
-                double totalHoursForAWeek = 0;
-                double averageHoursForAWeek = 0;
+                    string[] splitFileName;
+                    string[] listOfHours;
+                    double totalHoursForAWeek = 0;
 
                     //break the output into two parts 
                     splitFileName = line.Split(',');
 
                     //checking the list of hours
-                    Console.WriteLine(splitFileName[1]);
+                    // Console.WriteLine(splitFileName[1]);
 
-                    listOfNumbers = splitFileName[1].Split('|');
+                    //start looping for each day
+                    listOfHours = splitFileName[1].Split('|');
                     for (int i = 0; i < 7; i++) {
-                         
-                        totalHoursForAWeek += double.Parse(listOfNumbers[i]);
 
-                        Console.WriteLine(totalHoursForAWeek);
-
+                        totalHoursForAWeek += double.Parse(listOfHours[i]);
+                    
                     }
+
+
+                    //the header for each week 
+                    Console.WriteLine($"Week of {Convert.ToDateTime(splitFileName[0]):MMM}, {Convert.ToDateTime(splitFileName[0]):dd}, {Convert.ToDateTime(splitFileName[0]):yyyy}");
+                    Console.WriteLine(" Su Mo Tu We Th Fr Sa Tot Avg");
+                    Console.WriteLine(" -- -- -- -- -- -- -- --- ---");
+                    // Console.WriteLine(" " +  + " " + totalHoursForAWeek + " " + string.Format("{0:0.0}", totalHoursForAWeek/7));
+                    Console.WriteLine(String.Format("{0,10} {1,1} {2,1}", string.Join(" ", listOfHours), totalHoursForAWeek, string.Format("{0:0.0}", totalHoursForAWeek/7)));
+
+                    
                     
 
-                    Console.WriteLine();
 
-                    Console.WriteLine(line);
                 }
 
             }
