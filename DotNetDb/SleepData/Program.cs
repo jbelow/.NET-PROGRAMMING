@@ -85,11 +85,13 @@ namespace SleepData
 
                     //the header for each week 
                     Console.WriteLine($"Week of {Convert.ToDateTime(splitFileName[0]):MMM}, {Convert.ToDateTime(splitFileName[0]):dd}, {Convert.ToDateTime(splitFileName[0]):yyyy}");
-                    Console.WriteLine(" Su Mo Tu We Th Fr Sa Tot Avg");
-                    Console.WriteLine(" -- -- -- -- -- -- -- --- ---");
+                    Console.WriteLine("Su Mo Tu We Th Fr Sa Tot Avg");
+                    Console.WriteLine("-- -- -- -- -- -- -- --- ---");
                     // Console.WriteLine(" " +  + " " + totalHoursForAWeek + " " + string.Format("{0:0.0}", totalHoursForAWeek/7));
-                    Console.WriteLine(String.Format("{0,10} {1,1} {2,1}", string.Join(" ", listOfHours), totalHoursForAWeek, string.Format("{0:0.0}", totalHoursForAWeek/7)));
+                    Console.WriteLine(String.Format("{0,2} {1,2} {2,2} {3,2} {4,2} {5,2} {6,2} {7,3} {8,3:N1}", listOfHours[0], listOfHours[1], listOfHours[2], listOfHours[3], listOfHours[4], listOfHours[5], listOfHours[6], totalHoursForAWeek, totalHoursForAWeek/7));
 
+                    //adding a line before the next week display
+                    Console.WriteLine();
                     
                     
 

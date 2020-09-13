@@ -1,0 +1,13 @@
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\bin\Debug\netcoreapp3.1\Testing.exe
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\bin\Debug\netcoreapp3.1\Testing.deps.json
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\bin\Debug\netcoreapp3.1\Testing.runtimeconfig.json
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\bin\Debug\netcoreapp3.1\Testing.runtimeconfig.dev.json
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\bin\Debug\netcoreapp3.1\Testing.dll
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\bin\Debug\netcoreapp3.1\Testing.pdb
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.AssemblyInfo.cs
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.dll
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.pdb
+C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\Testing\obj\Debug\netcoreapp3.1\Testing.genruntimeconfig.cache
