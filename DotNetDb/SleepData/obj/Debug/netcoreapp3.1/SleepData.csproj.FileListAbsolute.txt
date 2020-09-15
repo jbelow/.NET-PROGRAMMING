@@ -24,3 +24,7 @@ C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\SleepData\obj\
 C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\SleepData\obj\Debug\netcoreapp3.1\SleepData.dll
 C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\SleepData\obj\Debug\netcoreapp3.1\SleepData.pdb
 C:\Users\joshb\Documents\WCTC\Fall-2020\.NET-PROGRAMMING\DotNetDb\SleepData\obj\Debug\netcoreapp3.1\SleepData.genruntimeconfig.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\SleepData\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\SleepData\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\SleepData\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\SleepData\obj\Debug\netcoreapp3.1\SleepData.csproj.CopyComplete

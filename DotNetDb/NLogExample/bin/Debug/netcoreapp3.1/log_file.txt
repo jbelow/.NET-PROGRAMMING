@@ -1,0 +1,1 @@
+2020-09-14 09:05:58.1279|ERROR|NlogExample.Program|Attempted to divide by zero.

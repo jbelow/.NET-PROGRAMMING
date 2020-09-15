@@ -1,0 +1,9 @@
+2020-09-14 09:15:14.1200|INFO|SleepData.Program|Program started
+2020-09-14 09:15:15.9087|INFO|SleepData.Program|Program ended
+2020-09-14 09:16:04.9320|INFO|SleepData.Program|Program started
+2020-09-14 09:16:06.6950|WARN|SleepData.Program|File does not exists. "data.txt"
+2020-09-14 09:16:06.7202|INFO|SleepData.Program|Program ended
+2020-09-14 09:16:14.1563|INFO|SleepData.Program|Program started
+2020-09-14 09:16:16.3250|INFO|SleepData.Program|Program ended
+2020-09-14 09:16:26.0354|INFO|SleepData.Program|Program started
+2020-09-14 09:16:29.3602|INFO|SleepData.Program|Program ended

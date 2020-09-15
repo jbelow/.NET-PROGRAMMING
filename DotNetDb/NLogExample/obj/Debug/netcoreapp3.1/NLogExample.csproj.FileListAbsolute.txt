@@ -1,0 +1,17 @@
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLogExample.exe
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLogExample.deps.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLogExample.runtimeconfig.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLogExample.runtimeconfig.dev.json
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLogExample.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLogExample.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.csprojAssemblyReference.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.AssemblyInfoInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.AssemblyInfo.cs
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.csproj.CoreCompileInputs.cache
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.csproj.CopyComplete
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.dll
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.pdb
+C:\Users\joshb\Documents\School\WCTC\Fall-2020\.NET PROGRAMMING\DotNetDb\NLogExample\obj\Debug\netcoreapp3.1\NLogExample.genruntimeconfig.cache
