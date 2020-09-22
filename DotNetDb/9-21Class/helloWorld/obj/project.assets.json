@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\TicketingSystem\\TicketingSystem.csproj",
-      "projectName": "TicketingSystem",
-      "projectPath": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\TicketingSystem\\TicketingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\9-21Class\\helloWorld\\helloWorld.csproj",
+      "projectName": "helloWorld",
+      "projectPath": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\9-21Class\\helloWorld\\helloWorld.csproj",
       "packagesPath": "C:\\Users\\joshb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\TicketingSystem\\obj\\",
+      "outputPath": "C:\\Users\\joshb\\Documents\\School\\WCTC\\Fall-2020\\.NET PROGRAMMING\\DotNetDb\\9-21Class\\helloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joshb\\AppData\\Roaming\\NuGet\\NuGet.Config"
