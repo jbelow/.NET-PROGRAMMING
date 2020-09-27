@@ -1,0 +1,7 @@
+2020-09-27 12:26:05.7601|INFO|MovieLibrary.Program|Program started
+2020-09-27 12:26:14.7404|INFO|MovieLibrary.Program|Program ended
+2020-09-27 12:27:23.5445|INFO|MovieLibrary.Program|Program started
+2020-09-27 12:27:47.5974|INFO|MovieLibrary.Program|Program started
+2020-09-27 12:28:08.5118|INFO|MovieLibrary.Program|Program started
+2020-09-27 12:28:08.5444|WARN|MovieLibrary.Program|File does not exist. "dml-latest-small/movies.csv"
+2020-09-27 12:28:08.5580|INFO|MovieLibrary.Program|Program ended
