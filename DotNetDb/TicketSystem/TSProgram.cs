@@ -21,17 +21,10 @@ namespace TicketSystem
 
                     if (choice == "1")
                     {
-                        // ReadData writing = new ReadData();
+                        ReadData writing = new ReadData();
+                        writing.OutputData();
 
-                        // writing.OutputData();
 
-                        StreamReader sr = new StreamReader(dataFile);
-                        while (!sr.EndOfStream)
-                        {
-                            string line = sr.ReadLine();
-                            Console.WriteLine(line);
-                        }
-                        sr.Close();
                     }
 
                     else if (choice == "2")
