@@ -7,22 +7,18 @@ namespace TicketSystem
     {
         static void Main(string[] args)
         {
-            string choice = "";
             string dataFile;
             AccessData access = new AccessData();
-            
+            string choice = "";
 
             do
             {
-
                 if (access.doesFileExist())
                 {
                     dataFile = access.AccessDataFile;
-                    Console.WriteLine("1) Read data from file.");
-                    Console.WriteLine("2) Create new ticket from data.");
-                    Console.WriteLine("Enter any other key to exit.");
-                    choice = Console.ReadLine();
 
+                    printMenu();
+                    choice = Console.ReadLine();
 
                     if (choice == "1")
                     {
@@ -30,12 +26,13 @@ namespace TicketSystem
 
                         // writing.OutputData();
 
-                            StreamReader sr = new StreamReader(dataFile);
-                while(!sr.EndOfStream){
-                    string line = sr.ReadLine();
-                    Console.WriteLine(line);
-                }
-                sr.Close();
+                        StreamReader sr = new StreamReader(dataFile);
+                        while (!sr.EndOfStream)
+                        {
+                            string line = sr.ReadLine();
+                            Console.WriteLine(line);
+                        }
+                        sr.Close();
                     }
 
                     else if (choice == "2")
@@ -84,12 +81,24 @@ namespace TicketSystem
                     }
                 }
                 else
-                { 
+                {
                     Console.WriteLine("Error: File does not exists");
                 }
 
             } while (choice == "1" || choice == "2");
 
         }
+
+        private static void printMenu()
+        {
+            Console.WriteLine("1) Read data from file.");
+            Console.WriteLine("2) Create new ticket from data.");
+            Console.WriteLine("Enter any other key to exit.");
+        }
+
+
+
+
+
     }
 }
