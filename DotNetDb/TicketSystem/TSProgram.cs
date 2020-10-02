@@ -7,15 +7,14 @@ namespace TicketSystem
     {
         static void Main(string[] args)
         {
-            string dataFile;
             AccessData access = new AccessData();
             string choice = "";
 
             do
             {
-                if (access.doesFileExist())
+                if (access.DoesFileExist())
                 {
-                    dataFile = access.AccessDataFile;
+                    string dataFile = access.AccessDataFile;
 
                     printMenu();
                     choice = Console.ReadLine();
@@ -37,47 +36,9 @@ namespace TicketSystem
 
                     else if (choice == "2")
                     {
-                        string newTicket = "";
-                        int assigned;
+                        WriteData ticket = new WriteData();
+                        ticket.NewTicket();
 
-                        StreamWriter sw = new StreamWriter(dataFile, true);
-
-                        Console.WriteLine("Enter the ticketID.");
-                        string userInput = Console.ReadLine();
-                        newTicket += userInput;
-
-                        Console.WriteLine("Enter the summary.");
-                        userInput = Console.ReadLine();
-                        newTicket += ", " + userInput;
-
-                        Console.WriteLine("Enter the status.");
-                        userInput = Console.ReadLine();
-                        newTicket += ", " + userInput;
-
-                        Console.WriteLine("Enter the priority.");
-                        userInput = Console.ReadLine();
-                        newTicket += ", " + userInput;
-
-                        Console.WriteLine("Enter the submitter.");
-                        userInput = Console.ReadLine();
-                        newTicket += ", " + userInput;
-
-                        Console.WriteLine("How many people are going to be assigned?");
-                        userInput = Console.ReadLine();
-                        assigned = Convert.ToInt32(userInput);
-
-                        for (int j = 0; j < assigned; j++)
-                        {
-                            Console.WriteLine("Enter the assigned person.");
-                            userInput = Console.ReadLine();
-                            newTicket += "| " + userInput;
-                        }
-
-                        Console.WriteLine(newTicket);
-
-                        sw.WriteLine(newTicket);
-
-                        sw.Close();
                     }
                 }
                 else
@@ -91,6 +52,7 @@ namespace TicketSystem
 
         private static void printMenu()
         {
+            //abstracting out the menu
             Console.WriteLine("1) Read data from file.");
             Console.WriteLine("2) Create new ticket from data.");
             Console.WriteLine("Enter any other key to exit.");
