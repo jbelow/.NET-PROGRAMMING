@@ -171,9 +171,7 @@ namespace MovieLibrary
                         else
                         {
                             logger.Warn("Error: There is already a moive wih that name");
-                            
                         }
-                        
                     }
                 } else
                 { //if else check for file
