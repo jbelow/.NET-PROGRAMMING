@@ -7,47 +7,10 @@ namespace TicketSystem
     {
         static void Main(string[] args)
         {
-
-
             do
             {
                 menu();
             } while (true);
-
-
-            // AccessData access = new AccessData();
-            // string choice = "";
-
-            // do
-            // {
-            //     if (access.DoesFileExist())
-            //     {
-            //         string dataFile = access.AccessDataFile;
-
-            //         printMenu();
-            //         choice = Console.ReadLine();
-
-            //         if (choice == "1")
-            //         {
-            //             ReadData writing = new ReadData();
-            //             writing.OutputData();
-
-
-            //         }
-
-            //         else if (choice == "2")
-            //         {
-            //             WriteData ticket = new WriteData();
-            //             ticket.NewTicket();
-
-            //         }
-            //     }
-            //     else
-            //     {
-            //         Console.WriteLine("Error: File does not exists");
-            //     }
-
-            // } while (choice == "1" || choice == "2");
 
         }
 
@@ -61,6 +24,12 @@ namespace TicketSystem
             switch (choice)
             {
                 case 1:
+
+                    string movieFilePath = Directory.GetCurrentDirectory() + "\\movies.csv";
+
+
+                    MovieFile movieFile = new MovieFile(movieFilePath);
+
                     Console.WriteLine("1) Write to the Tickets file\n2) Read from the Tickets file");
                     choice = Convert.ToInt32(Console.ReadLine());
 
@@ -74,34 +43,43 @@ namespace TicketSystem
                         Console.WriteLine("Enter the ticket id");
                         ticket.ticketId = Convert.ToInt32(Console.ReadLine());
 
-                        // input genres
+                        Console.WriteLine("Enter the summary");
+                        ticket.summary = Console.ReadLine();
+
+                        Console.WriteLine("Enter the status");
+                        ticket.status = Console.ReadLine();
+
+                        Console.WriteLine("Enter the priority");
+                        ticket.priority = Console.ReadLine();
+
+                        Console.WriteLine("Enter the submitter");
+                        ticket.submitter = Console.ReadLine();
+
+                        Console.WriteLine("Enter the assigned");
+                        ticket.assigned = Console.ReadLine();
+
+                        // input watching
                         string input;
                         do
                         {
-                            // ask user to enter genre
-                            Console.WriteLine("Enter genre (or done to quit)");
+                            // ask user to enter watching
+                            Console.WriteLine("Enter people watching (or done to quit)");
                             // input genre
                             input = Console.ReadLine();
                             // if user enters "done"
                             // or does not enter a genre do not add it to list
                             if (input != "done" && input.Length > 0)
                             {
-                                movie.genres.Add(input);
+                                ticket.watching.Add(input);
                             }
                         } while (input != "done");
-                        // specify if no genres are entered
-                        if (movie.genres.Count == 0)
+                        // specify if no watching people are entered
+                        if (ticket.watching.Count == 0)
                         {
-                            movie.genres.Add("(no genres listed)");
+                            ticket.watching.Add("(no one watching listed)");
                         }
 
-                        Console.WriteLine("Enter movie director");
-                        movie.director = Console.ReadLine();
-
-                        Console.WriteLine("Enter running time (h:m:s)");
-                        movie.runningTime = TimeSpan.Parse(Console.ReadLine());
-
-                        // add movie
+                        // add ticket
                         movieFile.AddMovie(movie);
 
 
