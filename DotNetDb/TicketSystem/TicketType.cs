@@ -6,7 +6,7 @@ namespace TicketSystem
     public abstract class TicketType
     {
         // public properties
-        public UInt64 ticketId { get; set; }
+        public int ticketId { get; set; }
         public string summary { get; set; }
         public string status { get; set; }
         public string priority { get; set; }

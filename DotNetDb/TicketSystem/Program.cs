@@ -72,8 +72,7 @@ namespace TicketSystem
                         // ask user to input ticket id
                         //TODO: change this later to make it get the last id
                         Console.WriteLine("Enter the ticket id");
-                        ticket.ticketId = Console.ReadLine();
-
+                        ticket.ticketId = Convert.ToInt32(Console.ReadLine());
 
                         // input genres
                         string input;
