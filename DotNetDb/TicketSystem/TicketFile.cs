@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using NLog.Web;
+
 
 namespace TicketSystem
 {
@@ -9,14 +11,16 @@ namespace TicketSystem
     {
         // public property
         public string filePath { get; set; }
-        public List<Movie> Movies { get; set; }
+        public List<Ticket> Ticket { get; set; }
+        private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "nlog.config").GetCurrentClassLogger();
+
 
         // constructor is a special method that is invoked
         // when an instance of a class is created
-        public MovieFile(string movieFilePath)
+        public TicketFile(string movieFilePath)
         {
             filePath = movieFilePath;
-            Movies = new List<Movie>();
+            Ticket = new List<Ticket>();
 
             // to populate the list with data, read from the data file
             try
@@ -26,8 +30,8 @@ namespace TicketSystem
                 sr.ReadLine();
                 while (!sr.EndOfStream)
                 {
-                    // create instance of Movie class
-                    Movie movie = new Movie();
+                    // create instance of Ticket class
+                    Ticket ticket = new Ticket();
                     string line = sr.ReadLine();
                     // first look for quote(") in string
                     // this indicates a comma(,) in movie title
@@ -36,32 +40,32 @@ namespace TicketSystem
                     {
                         // no quote = no comma in movie title
                         // movie details are separated with comma(,)
-                        string[] movieDetails = line.Split(',');
-                        movie.movieId = UInt64.Parse(movieDetails[0]);
-                        movie.title = movieDetails[1];
-                        movie.genres = movieDetails[2].Split('|').ToList();
+                        string[] ticketDetails = line.Split(',');
+                        ticket.ticketId = UInt64.Parse(ticketDetails[0]);
+                        ticket.title = ticketDetails[1];
+                        ticket.genres = ticketDetails[2].Split('|').ToList();
                     }
                     else
                     {
                         // quote = comma in movie title
                         // extract the movieId
-                        movie.movieId = UInt64.Parse(line.Substring(0, idx - 1));
+                        ticket.movieId = UInt64.Parse(line.Substring(0, idx - 1));
                         // remove movieId and first quote from string
                         line = line.Substring(idx + 1);
                         // find the next quote
                         idx = line.IndexOf('"');
                         // extract the movieTitle
-                        movie.title = line.Substring(0, idx);
+                        ticket.title = line.Substring(0, idx);
                         // remove title and last comma from the string
                         line = line.Substring(idx + 2);
                         // replace the "|" with ", "
-                        movie.genres = line.Split('|').ToList();
+                        ticket.genres = line.Split('|').ToList();
                     }
-                    Movies.Add(movie);
+                    Ticket.Add(ticket);
                 }
                 // close file when done
                 sr.Close();
-                logger.Info("Movies in file {Count}", Movies.Count);
+                logger.Info("Movies in file {Count}", Ticket.Count);
             }
             catch (Exception ex)
             {
@@ -69,30 +73,20 @@ namespace TicketSystem
             }
         }
 
-        // public method
-        public bool isUniqueTitle(string title)
-        {
-            if (Movies.ConvertAll(m => m.title.ToLower()).Contains(title.ToLower()))
-            {
-                logger.Info("Duplicate movie title {Title}", title);
-                return false;
-            }
-            return true;
-        }
 
-        public void AddMovie(Movie movie)
+        public void AddTicket(Ticket ticket)
         {
             try
             {
                 // first generate movie id
-                movie.movieId = Movies.Max(m => m.movieId) + 1;
+                ticket.ticketId = Ticket.Max(t => t.ticketId) + 1;
                 StreamWriter sw = new StreamWriter(filePath, true);
-                sw.WriteLine($"{movie.movieId},{movie.title},{string.Join("|", movie.genres)}");
+                sw.WriteLine($"{ticket.ticketId},{ticket.summary},{ticket.status},{ticket.assigned},{string.Join("|", ticket.watching)},{ticket.severity}");
                 sw.Close();
-                // add movie details to Lists
-                Movies.Add(movie);
+                // add ticket details to Lists
+                Ticket.Add(ticket);
                 // log transaction
-                logger.Info("Movie id {Id} added", movie.movieId);
+                logger.Info("Movie id {Id} added", ticket.ticketId);
             } 
             catch(Exception ex)
             {

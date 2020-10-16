@@ -25,10 +25,10 @@ namespace TicketSystem
             {
                 case 1:
 
-                    string movieFilePath = Directory.GetCurrentDirectory() + "\\movies.csv";
+                    string movieFilePath = Directory.GetCurrentDirectory() + "Tickets.csv";
 
 
-                    MovieFile movieFile = new MovieFile(movieFilePath);
+                    TicketFile ticketFile = new TicketFile(movieFilePath);
 
                     Console.WriteLine("1) Write to the Tickets file\n2) Read from the Tickets file");
                     choice = Convert.ToInt32(Console.ReadLine());
@@ -38,11 +38,7 @@ namespace TicketSystem
                     {
                         Ticket ticket = new Ticket();
 
-                        // ask user to input ticket id
-                        //TODO: change this later to make it get the last id
-                        Console.WriteLine("Enter the ticket id");
-                        ticket.ticketId = Convert.ToInt32(Console.ReadLine());
-
+                        // ask user to input ticket info
                         Console.WriteLine("Enter the summary");
                         ticket.summary = Console.ReadLine();
 
@@ -80,7 +76,7 @@ namespace TicketSystem
                         }
 
                         // add ticket
-                        movieFile.AddMovie(movie);
+                        ticketFile.AddTicket(ticket);
 
 
 
