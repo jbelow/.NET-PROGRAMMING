@@ -18,21 +18,18 @@ namespace TicketSystem
         {
             int choice;
 
-            Console.WriteLine("What fine do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks");
+            Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks");
             choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
             {
                 case 1:
 
-                    string movieFilePath = Directory.GetCurrentDirectory() + "Tickets.csv";
-
-
-                    TicketFile ticketFile = new TicketFile(movieFilePath);
+                    string ticketFilePath = "tickets.csv";
+                    TicketFile ticketFile = new TicketFile(ticketFilePath);
 
                     Console.WriteLine("1) Write to the Tickets file\n2) Read from the Tickets file");
                     choice = Convert.ToInt32(Console.ReadLine());
-
 
                     if (choice == 1)
                     {
