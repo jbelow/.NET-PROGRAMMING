@@ -14,7 +14,6 @@ namespace TicketSystem
         public string assigned { get; set; }
         public List<string> watching { get; set; }
 
-
         // constructor
         public TicketType()
         {

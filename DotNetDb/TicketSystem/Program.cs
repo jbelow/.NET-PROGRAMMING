@@ -7,106 +7,109 @@ namespace TicketSystem
     {
         static void Main(string[] args)
         {
-            do
-            {
-                menu();
-            } while (true);
-
-        }
-
-        private static void menu()
-        {
             int choice;
 
-            Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks");
-            choice = Convert.ToInt32(Console.ReadLine());
-
-            switch (choice)
+            do
             {
-                case 1:
+                Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks\n4)Exit the program");
 
-                    string ticketFilePath = "tickets.csv";
-                    TicketFile ticketFile = new TicketFile(ticketFilePath);
+                choice = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine("1) Write to the Tickets file\n2) Read from the Tickets file");
-                    choice = Convert.ToInt32(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
 
-                    if (choice == 1)
-                    {
-                        Ticket ticket = new Ticket();
+                        string ticketFilePath = "tickets.csv";
 
-                        // ask user to input ticket info
-                        Console.WriteLine("Enter the summary");
-                        ticket.summary = Console.ReadLine();
+                        TicketFile ticketFile = new TicketFile(ticketFilePath);
 
-                        Console.WriteLine("Enter the status");
-                        ticket.status = Console.ReadLine();
+                        Console.WriteLine("1) Write to the Tickets file\n2) Read from the Tickets file");
+                        choice = Convert.ToInt32(Console.ReadLine());
 
-                        Console.WriteLine("Enter the priority");
-                        ticket.priority = Console.ReadLine();
-
-                        Console.WriteLine("Enter the submitter");
-                        ticket.submitter = Console.ReadLine();
-
-                        Console.WriteLine("Enter the assigned");
-                        ticket.assigned = Console.ReadLine();
-
-                        // input watching
-                        string input;
-                        do
+                        if (choice == 1)
                         {
-                            // ask user to enter watching
-                            Console.WriteLine("Enter people watching (or done to quit)");
-                            // input genre
-                            input = Console.ReadLine();
-                            // if user enters "done"
-                            // or does not enter a genre do not add it to list
-                            if (input != "done" && input.Length > 0)
+                            Ticket ticket = new Ticket();
+
+                            // ask user to input ticket info
+                            Console.WriteLine("Enter the summary");
+                            ticket.summary = Console.ReadLine();
+
+                            Console.WriteLine("Enter the status");
+                            ticket.status = Console.ReadLine();
+
+                            Console.WriteLine("Enter the priority");
+                            ticket.priority = Console.ReadLine();
+
+                            Console.WriteLine("Enter the submitter");
+                            ticket.submitter = Console.ReadLine();
+
+                            Console.WriteLine("Enter the assigned");
+                            ticket.assigned = Console.ReadLine();
+
+                            // input watching
+                            string input;
+                            do
                             {
-                                ticket.watching.Add(input);
+                                // ask user to enter watching
+                                Console.WriteLine("Enter people watching (or done to quit)");
+                                // input genre
+                                input = Console.ReadLine();
+                                // if user enters "done"
+                                // or does not enter a genre do not add it to list
+                                if (input != "done" && input.Length > 0)
+                                {
+                                    ticket.watching.Add(input);
+                                }
+                            } while (input != "done");
+                            // specify if no watching people are entered
+                            if (ticket.watching.Count == 0)
+                            {
+                                ticket.watching.Add("(no one watching listed)");
                             }
-                        } while (input != "done");
-                        // specify if no watching people are entered
-                        if (ticket.watching.Count == 0)
+
+                            Console.WriteLine("Enter the severity");
+                            ticket.severity = Console.ReadLine();
+
+
+                            // add ticket
+                            ticketFile.AddTicket(ticket);
+
+
+
+                        }
+                        else if (choice == 2)
                         {
-                            ticket.watching.Add("(no one watching listed)");
+
+                            // Display All Movies
+                            foreach (Ticket t in ticketFile.Ticket)
+                            {
+                                Console.WriteLine(t.Display());
+                            }
                         }
 
-                        // add ticket
-                        ticketFile.AddTicket(ticket);
+                        break;
+
+                    case 2:
+                        Console.WriteLine("1) Write to the Enhancements file\n2) Read from the Enhancements file");
+                        choice = Convert.ToInt32(Console.ReadLine());
 
 
+                        break;
 
-                    }
-                    else if (choice == 2)
-                    {
-
-                    }
-
-                    break;
-
-                case 2:
-                    Console.WriteLine("1) Write to the Enhancements file\n2) Read from the Enhancements file");
-                    choice = Convert.ToInt32(Console.ReadLine());
+                    case 3:
+                        Console.WriteLine("1) Write to the Tasks file\n2) Read from the Tasks file");
+                        choice = Convert.ToInt32(Console.ReadLine());
 
 
-                    break;
+                        break;
 
-                case 3:
-                    Console.WriteLine("1) Write to the Tasks file\n2) Read from the Tasks file");
-                    choice = Convert.ToInt32(Console.ReadLine());
+                    default:
+                        Console.WriteLine("Please ");
+                        break;
 
+                }
 
-                    break;
-
-                default:
-                    Console.WriteLine("Please ");
-                    break;
-
-            }
-
-
-            Console.WriteLine("Enter any other key to exit.");
+            } while (choice != 4);
 
         }
 
