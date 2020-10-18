@@ -36,29 +36,15 @@ namespace TicketSystem
 
                     string line = sr.ReadLine();
 
-
-                    // no quote = no comma in ticket title
-                    // ticket details are separated with comma(,)
-                    
-                    // Console.WriteLine("1");
-
                     string[] ticketDetails = line.Split(',');
-                    // Console.WriteLine("2");
                     ticket.ticketId = UInt64.Parse(ticketDetails[0]);
-                    // Console.WriteLine("3");
                     ticket.summary = ticketDetails[1];
-                    // Console.WriteLine("4");
                     ticket.status = ticketDetails[2];
                     ticket.priority = ticketDetails[3];
                     ticket.submitter = ticketDetails[4];
                     ticket.assigned = ticketDetails[5];
                     ticket.watching = ticketDetails[6].Split('|').ToList();
                     ticket.severity = ticketDetails[7];
-                    // Console.WriteLine("5");
-                    
-
-                    Console.WriteLine(ticket.summary);
-
 
                     Ticket.Add(ticket);
                 }
