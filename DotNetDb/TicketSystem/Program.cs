@@ -11,7 +11,7 @@ namespace TicketSystem
 
             do
             {
-                Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks\n4)Exit the program");
+                Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks\n4) Exit the program");
 
                 choice = Convert.ToInt32(Console.ReadLine());
 
