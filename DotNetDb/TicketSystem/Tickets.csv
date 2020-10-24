@@ -1,2 +1,3 @@
 TicketID, Summary, Status, Priority, Submitter, Assigned, Watching, Severity
-1,cool ticket bro,working on,low,Joshua,Mtich,Joshua,high
+1,cool ticket bro,working on,high,Joshua,Mtich,Joshua,high
+2,interesting ticket bro,meh,low,joshua,someone,joshua,low

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace TicketSystem
 {
@@ -8,10 +9,18 @@ namespace TicketSystem
         static void Main(string[] args)
         {
             int choice;
+            string ticketFilePath = "tickets.csv";
+            TicketFile ticketFile = new TicketFile(ticketFilePath);
+
+            string enhancementFilePath = "enhancements.csv";
+            EnhancementFile enhancementFile = new EnhancementFile(enhancementFilePath);
+
+            string taskFilePath = "tasks.csv";
+            TaskFile taskFile = new TaskFile(taskFilePath);
 
             do
             {
-                Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks\n4) Exit the program");
+                Console.WriteLine("What file do you want to work with:\n1) Tickets\n2) Enhancements\n3) Tasks\n4) Search Files\n5) Exit the program");
 
                 choice = Convert.ToInt32(Console.ReadLine());
 
@@ -19,9 +28,7 @@ namespace TicketSystem
                 {
                     case 1:
 
-                        string ticketFilePath = "tickets.csv";
 
-                        TicketFile ticketFile = new TicketFile(ticketFilePath);
 
                         Console.WriteLine("1) Write to the Tickets file\n2) Read from the Tickets file");
                         choice = Convert.ToInt32(Console.ReadLine());
@@ -89,13 +96,11 @@ namespace TicketSystem
 
                     case 2:
 
-                        string enhancementFilePath = "enhancements.csv";
 
-                        EnhancementFile enhancementFile = new EnhancementFile(enhancementFilePath);
 
                         Console.WriteLine("1) Write to the Enhancements file\n2) Read from the Enhancements file");
                         choice = Convert.ToInt32(Console.ReadLine());
-                        
+
                         if (choice == 1)
                         {
                             Enhancement enhancement = new Enhancement();
@@ -166,13 +171,11 @@ namespace TicketSystem
                         break;
 
                     case 3:
-                        string taskFilePath = "tasks.csv";
 
-                        TaskFile taskFile = new TaskFile(taskFilePath);
 
                         Console.WriteLine("1) Write to the Task file\n2) Read from the Task file");
                         choice = Convert.ToInt32(Console.ReadLine());
-                        
+
                         if (choice == 1)
                         {
                             Task task = new Task();
@@ -236,13 +239,104 @@ namespace TicketSystem
 
                         break;
 
+                    case 4:
+                        string search = "";
+
+                        Console.WriteLine("What in the system to you want to search:\n1) status\n2) priority\n3) submitter");
+                        choice = Convert.ToInt32(Console.ReadLine());
+
+                        if (choice == 1)
+                        {
+
+                            Console.WriteLine("What is the status of the ticket you want to search:");
+                            search = Console.ReadLine().ToLower();
+
+                            var ticketSearch = ticketFile.Ticket.Where(t => t.status.ToLower().Contains($"{search}"));
+                            Console.WriteLine($"There are {ticketSearch.Count()} tickets with \"{search}\" in the status:");
+                            foreach (Ticket t in ticketSearch)
+                            {
+                                Console.WriteLine($" {t.status}");
+                            }
+
+                            var taskSearch = taskFile.Task.Where(t => t.status.Contains($"{search}"));
+                            Console.WriteLine($"There are {taskSearch.Count()} tasks with \"{search}\" in the status:");
+                            foreach (Task t in taskSearch)
+                            {
+                                Console.WriteLine($" {t.status}");
+                            }
+
+                            var enhanncementsSearch = enhancementFile.Enhancement.Where(t => t.status.Contains($"{search}"));
+                            Console.WriteLine($"There are {enhanncementsSearch.Count()} enhanncements with \"{search}\" in the status:");
+                            foreach (Enhancement t in enhanncementsSearch)
+                            {
+                                Console.WriteLine($" {t.status}");
+                            }
+
+                        }
+                        else if (choice == 2)
+                        {
+
+                            Console.WriteLine("What is the priority of the ticket you want to search:");
+                            search = Console.ReadLine().ToLower();
+
+                            var ticketSearch = ticketFile.Ticket.Where(t => t.priority.ToLower().Contains($"{search}"));
+                            Console.WriteLine($"There are {ticketSearch.Count()} tickets with \"{search}\" in the priority:");
+                            foreach (Ticket t in ticketSearch)
+                            {
+                                Console.WriteLine($" {t.priority}");
+                            }
+
+                            var taskSearch = taskFile.Task.Where(t => t.priority.Contains($"{search}"));
+                            Console.WriteLine($"There are {taskSearch.Count()} tasks with \"{search}\" in the priority:");
+                            foreach (Task t in taskSearch)
+                            {
+                                Console.WriteLine($" {t.priority}");
+                            }
+
+                            var enhanncementsSearch = enhancementFile.Enhancement.Where(t => t.priority.Contains($"{search}"));
+                            Console.WriteLine($"There are {enhanncementsSearch.Count()} enhanncements with \"{search}\" in the priority:");
+                            foreach (Enhancement t in enhanncementsSearch)
+                            {
+                                Console.WriteLine($" {t.priority}");
+                            }
+
+                        }
+                        else if (choice == 3)
+                        {
+                            Console.WriteLine("What is the submitter of the ticket you want to search:");
+                            search = Console.ReadLine().ToLower();
+
+                            var ticketSearch = ticketFile.Ticket.Where(t => t.submitter.ToLower().Contains($"{search}"));
+                            Console.WriteLine($"There are {ticketSearch.Count()} tickets with \"{search}\" in the submitter:");
+                            foreach (Ticket t in ticketSearch)
+                            {
+                                Console.WriteLine($" {t.submitter}");
+                            }
+
+                            var taskSearch = taskFile.Task.Where(t => t.submitter.Contains($"{search}"));
+                            Console.WriteLine($"There are {taskSearch.Count()} tasks with \"{search}\" in the submitter:");
+                            foreach (Task t in taskSearch)
+                            {
+                                Console.WriteLine($" {t.submitter}");
+                            }
+
+                            var enhanncementsSearch = enhancementFile.Enhancement.Where(t => t.submitter.Contains($"{search}"));
+                            Console.WriteLine($"There are {enhanncementsSearch.Count()} enhanncements with \"{search}\" in the submitter:");
+                            foreach (Enhancement t in enhanncementsSearch)
+                            {
+                                Console.WriteLine($" {t.submitter}");
+                            }
+                        }
+
+                        break;
+
                     default:
                         Console.WriteLine("Please enter one of the options");
                         break;
 
                 }
 
-            } while (choice != 4);
+            } while (choice != 5);
 
         }
 
